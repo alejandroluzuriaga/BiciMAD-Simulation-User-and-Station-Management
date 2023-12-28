@@ -78,12 +78,12 @@ void printStationArray(Station *st, int stationId){
     char *sequency = (char*)malloc(sizeof(char) * data.numSlotsPerStation * 2 + 1);
     int index = 0;
 
-    for (int i = 0; i < st->availableBikes; ++i) {
+    for (i = 0; i < st->availableBikes; ++i) {
         sequency[index++] = '1';
         sequency[index++] = ' ';
     }
 
-    for (int i = st->availableBikes; i < data.numSlotsPerStation; ++i) {
+    for (i = st->availableBikes; i < data.numSlotsPerStation; ++i) {
         sequency[index++] = '0';
         sequency[index++] = ' ';
     }

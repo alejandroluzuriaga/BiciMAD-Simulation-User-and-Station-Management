@@ -1,0 +1,51 @@
+BiciMAD: CONFIGURACION INICIAL
+Usuarios: 400
+Numero de Estaciones: 12
+Numero de huecos por estacion: 20
+Tiempo minimo de espera para decidir coger una bici: 1
+Tiempo maximo de espera para decidir coger una bici: 4
+Tiempo minimo que pasa un usuario montando una bici: 1
+Tiempo maximo que pasa un usuario montando una bici: 6
+
+SIMULACION FUNCIONAMIENTO BiciMAD
+
+Usuario 246 quiere coger bici en Estacion 4
+Usuario 1 quiere coger bici en Estacion 1
+Usuario 1 coge bici de Estacion 1
+Estacion 1: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+Usuario 246 coge bici de Estacion 4
+Estacion 4: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+Usuario 246 montando en bici ...
+Usuario 1 montando en bici ...
+Usuario 124 quiere coger bici en Estacion 7
+Usuario 369 quiere coger bici en Estacion 2
+Usuario 2 quiere coger bici en Estacion 9
+Usuario 247 quiere coger bici en Estacion 5
+Usuario 124 coge bici de Estacion 7
+Usuario 2 coge bici de Estacion 9
+Estacion 9: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+Usuario 2 montando en bici ...
+Estacion 7: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+Usuario 124 montando en bici ...
+Usuario 369 coge bici de Estacion 2
+Estacion 2: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+Usuario 369 montando en bici ...
+Usuario 2 quiere dejar bici de Estacion 6
+Usuario 2 deja bici en Estacion 6
+Estacion 6: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 
+Usuario 125 quiere coger bici en Estacion 7
+Usuario 370 quiere coger bici en Estacion 11
+Usuario 246 quiere dejar bici de Estacion 6
+Usuario 246 deja bici en Estacion 6
+Estacion 6: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 
+Usuario 1 quiere dejar bici de Estacion 2
+Usuario 1 deja bici en Estacion 2
+Estacion 2: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 
+Usuario 248 quiere coger bici en Estacion 1
+Usuario 3 quiere coger bici en Estacion 10
+Usuario 247 coge bici de Estacion 5
+Estacion 5: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+Usuario 247 montando en bici ...
+Usuario 370 coge bici de Estacion 11
+Estacion 11: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 
+Usuario 370 montando en bici ...
