@@ -28,7 +28,7 @@ Execute the program:
 ```
 ./biciMAD [input_file] [output_file]
 ```
-Follow the next table to program:
+Follow the next table to run program:
 
 | Arguments | Input | Output |
 | ------ | ------ | ------ |
